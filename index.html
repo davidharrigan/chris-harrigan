@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>chrisharrigan</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Webpack basic starter project">
+    <meta name="Description" content="A simple webpack starter project for your basic web development needs."/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Webpack basic starter project" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://lifenautjoe.github.io/webpack-starter-basic/" />
+    <meta property="og:image" content="https://i.snag.gy/i3eMBc.jpg" />
+    <meta property="og:description" content="A simple webpack starter project for your basic web development needs." />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#2F0147">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#2F0147">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <div class="fader"></div>
+    <nav class="navbar justify-content-between sticky-top navbar-purple">
+        <a href="#" class="ml-auto mr-1 navicon-dd"></a>
+    </nav>
+
+    <!-- nav toggle -->
+    <div class="navicon-toggle">
+        <div class="navicon-toggle__title">
+            <h3>Chris Harrigan<h3>
+            <h4>Post-Production/Vfx Editor</h4>
+        </div>
+        <ul class="navicon-toggle__menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Commercial</a></li>
+            <li><a href="/music.html">Music</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    
+    <main role="main">
+        <div id="video-bg">
+            <div id="bgndVideo" class="player"
+                    data-property="{videoURL:'https://youtu.be/gLcYOP8jFEc',containment:'#video-bg', autoPlay:true, mute:true, showControls:false, startAt:0, opacity:0.5, loop:true}">
+            </div>
+            <div id="video-content">
+                <div class="text-center">
+                    <h2>Chris Harrigan</h2>
+                    <p>Post-Production/Vfx Editor</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p class="justify">
+                        Digital media professional with a background working in the media technology service industry. Fast with Adobe Premiere, After Effects, Photoshop, Illustrator, and more.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="image-container"></div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+    </main><!-- /.container -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.mb.YTPlayer.js"></script>
+    <script src="js/vendor/justified.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+</html>
